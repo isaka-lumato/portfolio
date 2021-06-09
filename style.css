@@ -1,0 +1,56 @@
+section {
+  background-image: url("images/header-shapes mobile@2x.png");
+  min-height: 718px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+nav {
+  display: flex;
+  height: 20px;
+  max-width: 300px;
+  left: 12px;
+  top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+.head {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.content {
+  color: #344563;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  max-height: 146px;
+  max-width: 327px;
+  display: flex;
+  flex-direction: column;
+}
+
+.connect {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+}
+
+.icons img {
+  margin-right: 10px;
+}
