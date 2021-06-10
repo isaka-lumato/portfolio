@@ -1,6 +1,7 @@
 Portfolio
 Assigment from Microverse: Setting Up mobile portfolio;
-/home/isaka/portfolio/images/portfolio.png
+![portfolio](https://user-images.githubusercontent.com/75973193/121484026-84513c00-c9d7-11eb-8aa6-2d521ee83686.png)
+
 Built With;
 
 -HTML
@@ -11,7 +12,7 @@ Getting Started;
 
 To clone this project Run command: Press the green Code button in the upper right corner and choose to download from the Download ZIP link.
 
-From this i learned alot about flex, box model and html semantic tags
+From this i learned alot about flexbox, box model and html semantic tags
 
 Prerequisites;
 
