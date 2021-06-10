@@ -1,4 +1,4 @@
-section {
+.intro {
   background-image: url("images/header-shapes mobile@2x.png");
   min-height: 718px;
   max-width: 300px;
@@ -6,6 +6,10 @@ section {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  flex-grow: 1;
 }
 
 nav {
@@ -16,18 +20,15 @@ nav {
   top: 10px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
-header {
-  margin-bottom: 50px;
-}
-
-.head {
+.head h1 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
-  display: flex;
-  align-items: center;
+  font-size: 40px;
+  line-height: 52px;
   color: #172b4d;
 }
 
@@ -37,10 +38,6 @@ header {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  max-height: 146px;
-  max-width: 327px;
-  display: flex;
-  flex-direction: column;
 }
 
 .connect {
@@ -49,8 +46,28 @@ header {
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
+  margin: 0.1px 0.1px;
+}
+
+.humb {
+  width: 30px;
+  height: 20px;
+  color: royalblue;
 }
 
 .icons img {
   margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  right: 45px;
 }
