@@ -1,3 +1,9 @@
+.whole {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 .intro {
   background-image: url("images/header-shapes mobile@2x.png");
   min-height: 718px;
@@ -61,7 +67,7 @@ nav {
   margin-right: 25px;
 }
 
-ul {
+.icons ul {
   list-style-type: none;
   display: flex;
 }
@@ -71,5 +77,226 @@ ul {
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
-  right: 45px;
+  right: 40px;
+}
+
+.tonic2 {
+  display: flex;
+  flex-direction: column;
+  min-height: 718px;
+  max-width: 300px;
+  left: 24px;
+  top: 114px;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.tnc {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-bottom: 0.5px;
+}
+
+.can {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  position: relative;
+  top: 2px;
+}
+
+.li2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.ul2 .can {
+  list-style-type: none;
+}
+
+.ul2 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  right: 55px;
+  margin-bottom: 0.5px;
+}
+
+.tonic2 p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.ul3 {
+  display: flex;
+  list-style-type: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  justify-content: space-around;
+  position: relative;
+  right: 50px;
+  width: fit-content;
+}
+
+.ul3 li {
+  background-color: #ebebff;
+  border-radius: 8px;
+  margin: 0 8px;
+  padding: 8px 24px;
+}
+
+.sp {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 10px;
+  border: 1px solid #6070ff;
+  position: relative;
+  top: 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  width: fit-content;
+  display: block;
+}
+
+.sp:hover {
+  background-color: #6070fd;
+  color: white;
+}
+
+a {
+  color: #396df2;
+}
+
+.ul2 li::marker {
+  font-size: 1.5em;
+}
+
+.outro {
+  min-height: 718px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 300px 570px;
+  flex-grow: 1;
+}
+
+.re {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 10px;
+  border: 1px solid #6070ff;
+  text-decoration: none;
+  border-radius: 8px;
+  width: fit-content;
+  display: block;
+}
+
+.langs {
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: stretch;
+  margin-left: 0.1px;
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+}
+
+.langs li {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-grow: 1;
+  position: relative;
+  right: 50px;
+  padding: 10px 80px 10px 10px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+}
+
+.font {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+hr {
+  height: 1px;
+  width: 327px;
+  top: 71px;
+  color: #dfe1e6;
+  display: block;
+}
+
+.me li {
+  list-style-type: none;
+}
+
+.skil {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  right: 30px;
+}
+
+.font2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-block;
+}
+
+.arr2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.frame-icon {
+  position: relative;
+  top: 16px;
+}
+
+.arr2 span {
+  float: right;
 }
