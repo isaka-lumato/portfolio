@@ -7,8 +7,8 @@
   flex-wrap: wrap;
   padding: 5px;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: inherit;
+  background-position: left top;
+  background-size: 300px 570px;
   flex-grow: 1;
 }
 
@@ -24,6 +24,8 @@ nav {
 }
 
 .head h1 {
+  position: relative;
+  top: 40px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -52,11 +54,11 @@ nav {
 .humb {
   width: 30px;
   height: 20px;
-  color: royalblue;
+  filter: invert(64%) sepia(66%) saturate(4989%) hue-rotate(212deg) brightness(108%) contrast(101%);
 }
 
 .icons img {
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 ul {
