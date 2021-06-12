@@ -1,7 +1,5 @@
 .whole {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .intro {
@@ -164,7 +162,7 @@ nav {
   padding: 8px 24px;
 }
 
-.sp {
+.see {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -180,7 +178,7 @@ nav {
   display: block;
 }
 
-.sp:hover {
+.see:hover {
   background-color: #6070fd;
   color: white;
 }
@@ -206,7 +204,7 @@ a {
   flex-grow: 1;
 }
 
-.re {
+.resume {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -232,7 +230,7 @@ a {
   margin-left: 0.1px;
 }
 
-.me {
+.specifics {
   display: flex;
   flex-direction: column;
 }
@@ -266,7 +264,7 @@ hr {
   display: block;
 }
 
-.me li {
+.specifics li {
   list-style-type: none;
 }
 
