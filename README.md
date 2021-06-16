@@ -1,7 +1,6 @@
 Portfolio
 Assigment from Microverse: Setting Up mobile portfolio;
-![Screenshot from 2021-06-11 21-11-50](https://user-images.githubusercontent.com/75973193/121731537-c4104480-caf9-11eb-86c0-66a46b8f069b.png)
-
+![Screenshot from 2021-06-16 16-51-01](https://user-images.githubusercontent.com/75973193/122231497-2767f100-cec3-11eb-9f8d-77ad3824b853.png)
 
 
 Built With;
@@ -14,7 +13,7 @@ Getting Started;
 
 To clone this project Run command: Press the green Code button in the upper right corner and choose to download from the Download ZIP link.
 
-From this i learned alot about flexbox, box model, html semantic tags and grid
+From this i learned alot about formsw and styling them.
 
 Prerequisites;
 
