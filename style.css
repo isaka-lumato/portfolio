@@ -360,6 +360,9 @@ input {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  padding-left: 10px;
+  position: relative;
+  right: 8px;
 }
 
 textarea {
@@ -374,6 +377,8 @@ textarea {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  position: relative;
+  right: 7px;
 }
 
 button {
@@ -399,23 +404,6 @@ button:hover {
   margin-left: 10px;
 }
 
-.circleBlue {
-  background-image: url("images/circleBlue.png");
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  left: 153px;
-  top: 4786px;
-  background-repeat: no-repeat;
-}
-
-.circleWhite {
-  background-image: url("images/circleWhite.png");
-  position: absolute;
-  width: 31.11px;
-  height: 31.11px;
-  left: 276.74px;
-  top: 5417.27px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
+button:active {
+  background-color: #2230d2;
 }
