@@ -1,6 +1,6 @@
 Portfolio
 Assigment from Microverse: Setting Up mobile portfolio;
-![Screenshot from 2021-06-16 16-51-01](https://user-images.githubusercontent.com/75973193/122231497-2767f100-cec3-11eb-9f8d-77ad3824b853.png)
+![Screenshot from 2021-06-19 00-10-03](https://user-images.githubusercontent.com/75973193/122616319-d3136b80-d092-11eb-91b9-30cfcf7faecc.png)
 
 
 Built With;
