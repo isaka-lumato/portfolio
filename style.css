@@ -676,15 +676,15 @@ button:active {
     flex-direction: row;
   }
 
-  .skil {
-    max-width: 684px;
-    max-height: 360px;
-    padding-right: 0;
-  }
-
   .langs li {
     display: flex;
     flex-direction: column;
     column-gap: 20px;
+  }
+  
+   .skil {
+    max-width: 684px;
+    max-height: 360px;
+    padding-right: 0;
   }
 }
