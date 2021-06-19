@@ -358,11 +358,11 @@ hr {
 
 .form ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding: 10px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 form {
