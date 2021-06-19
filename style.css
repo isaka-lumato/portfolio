@@ -188,6 +188,8 @@ nav ul {
   border-radius: 8px;
   width: fit-content;
   display: block;
+  transition-property: background;
+  transition-duration: 1s;
 }
 
 .see:hover {
@@ -229,6 +231,13 @@ a {
   border-radius: 8px;
   width: fit-content;
   display: block;
+  transition-property: background;
+  transition-duration: 1s;
+}
+
+.resume:hover {
+  background: #2230d2;
+  color: white;
 }
 
 .langs {
@@ -242,6 +251,7 @@ a {
   align-items: stretch;
   margin-left: 0.1px;
 }
+
 
 .specifics {
   display: flex;
@@ -414,10 +424,12 @@ button {
   display: block;
   margin-top: 0;
   color: #6070ff;
+  transition-property: background;
+  transition-duration: 2s;
 }
 
 button:hover {
-  background-color: #6070ff;
+  background: #6070ff;
   color: white;
 }
 
