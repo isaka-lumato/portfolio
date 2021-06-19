@@ -323,7 +323,8 @@ hr {
   background-repeat: no-repeat;
   width: 100%;
 }
-.form1{
+
+.form1 {
   background-image: url("images/contactBg.png");
   background-size: auto;
   margin-top: 20px;
@@ -418,11 +419,6 @@ button {
 button:hover {
   background-color: #6070ff;
   color: white;
-}
-
-.form1 {
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 button:active {
@@ -590,6 +586,8 @@ button:active {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    background-image: url("imagesdesktop/contDesk.png");
+    background-size: cover;
   }
 
   .form h2 {
@@ -661,20 +659,19 @@ button:active {
     line-height: 24px;
     color: #344563;
   }
-  .form1{
-    background-image: url("imagesdesktop/contDesk.png");
-    background-size: cover;
-  }
+
   .langs {
     display: flex;
-   flex-direction: row;
+    flex-direction: row;
   }
-  .skil{
+
+  .skil {
     max-width: 684px;
-    max-height: 360ox;
+    max-height: 360px;
     padding-right: 0;
   }
-  .langs li{
+
+  .langs li {
     display: flex;
     flex-direction: column;
     column-gap: 20px;
