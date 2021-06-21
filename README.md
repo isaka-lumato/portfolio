@@ -10,11 +10,16 @@ Built With;
 
 -CSS
 
+LIVE DEMO;
+here is the live link: https://isaka-lumato.github.io/portfolio/#
+
 Getting Started;
 
 To clone this project Run command: Press the green Code button in the upper right corner and choose to download from the Download ZIP link.
 
 From this i learned alot about formsw and styling them.
+
+here is the live link: https://isaka-lumato.github.io/portfolio/#
 
 Prerequisites;
 
@@ -31,4 +36,4 @@ Show your support
 Give a star if you like this project!
 memo License
 This project is MIT licensed.
-https://github.com/isaka-lumato/Hello-Microverse2/pull/1
+
