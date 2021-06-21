@@ -467,6 +467,7 @@ button:active {
   display: none;
 }
 
+
 @media (min-width: 920px) {
   .tonic2 {
     display: grid;

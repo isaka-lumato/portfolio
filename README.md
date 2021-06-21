@@ -16,6 +16,8 @@ To clone this project Run command: Press the green Code button in the upper righ
 
 From this i learned alot about formsw and styling them.
 
+here is the live link: https://isaka-lumato.github.io/portfolio/#
+
 Prerequisites;
 
 -Code editor (VS Code, Sublime, Atom)
@@ -31,4 +33,4 @@ Show your support
 Give a star if you like this project!
 memo License
 This project is MIT licensed.
-https://github.com/isaka-lumato/Hello-Microverse2/pull/1
+
