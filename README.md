@@ -10,6 +10,9 @@ Built With;
 
 -CSS
 
+LIVE DEMO;
+here is the live link: https://isaka-lumato.github.io/portfolio/#
+
 Getting Started;
 
 To clone this project Run command: Press the green Code button in the upper right corner and choose to download from the Download ZIP link.
