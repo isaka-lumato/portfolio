@@ -632,6 +632,7 @@ button:active {
   .intro {
     background-image: url("imagesdesktop/desktBg.png");
     background-size: cover;
+    margin-top: 0;
   }
 
   .introDiv {
@@ -640,7 +641,6 @@ button:active {
     justify-content: center;
     align-content: center;
     margin: 10px auto;
-    margin-left: 30%;
     margin-top: 10%;
   }
 
