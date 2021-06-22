@@ -619,6 +619,8 @@ button:active {
 
   .form h2 {
     align-self: center;
+    color: white;
+    background: #6070ff;
   }
 
   .form ul {
@@ -662,6 +664,8 @@ button:active {
     width: 569px;
     height: 102px;
     align-self: center;
+    color: white;
+    background: #6070ff;
   }
 
   .tonic3-b {
