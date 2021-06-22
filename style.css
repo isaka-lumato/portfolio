@@ -65,7 +65,8 @@ nav {
 .humb {
   width: 30px;
   height: 20px;
-  filter: invert(64%) sepia(66%) saturate(4989%) hue-rotate(212deg) brightness(108%) contrast(101%);
+  filter: invert(64%) sepia(66%) saturate(4989%) hue-rotate(212deg)
+    brightness(108%) contrast(101%);
 }
 
 .icons img {
@@ -160,7 +161,6 @@ nav ul {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: #6070ff;
   justify-content: space-around;
   position: relative;
   right: 50px;
@@ -168,7 +168,8 @@ nav ul {
 }
 
 .ul3 li {
-  background-color:#ebebff;
+  background-color: #ebebff;
+  color: #0018f5;
   border-radius: 8px;
   margin: 0 8px;
   padding: 5px 6px;
@@ -422,9 +423,11 @@ button {
   width: fit-content;
   display: block;
   margin-top: 0;
-  color: #6070ff;
+  color: #1a30ff;
   transition-property: background;
   transition-duration: 2s;
+  background-color: #fff;
+  border: none;
 }
 
 button:hover {
@@ -490,6 +493,15 @@ button:active {
   nav .humb {
     display: none;
   }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+
+    padding: 10px 50px;
+  }
 
   nav ul {
     display: flex;
@@ -502,10 +514,12 @@ button:active {
     line-height: 20px;
     align-items: center;
     text-align: center;
+    margin-right: 100px;
   }
 
   nav ul a {
     text-decoration: none;
+    color: #344563;
   }
 
   nav ul li {
@@ -589,7 +603,9 @@ button:active {
   .form {
     margin: auto;
     background-image: url("images/bg-contact.png");
+    background-color: #051eff;
     background-size: cover;
+    border-top-left-radius: 150px;
   }
 
   .form1 {
