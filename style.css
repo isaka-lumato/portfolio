@@ -65,8 +65,7 @@ nav {
 .humb {
   width: 30px;
   height: 20px;
-  filter: invert(64%) sepia(66%) saturate(4989%) hue-rotate(212deg)
-    brightness(108%) contrast(101%);
+  filter: invert(64%) sepia(66%) saturate(4989%) hue-rotate(212deg) brightness(108%) contrast(101%);
 }
 
 .icons img {
@@ -493,13 +492,13 @@ button:active {
   nav .humb {
     display: none;
   }
+
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 60px;
-
     padding: 10px 50px;
   }
 
