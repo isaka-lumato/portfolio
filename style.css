@@ -58,7 +58,7 @@ nav {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  color: #7f8cff;
+  color: #0015d6;
   margin: 0.1px 0.1px;
 }
 
@@ -128,7 +128,7 @@ nav ul {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #485160;
 }
 
 .ul2 .can {
@@ -168,7 +168,7 @@ nav ul {
 }
 
 .ul3 li {
-  background-color: #ebebff;
+  background-color:#0018f0;
   border-radius: 8px;
   margin: 0 8px;
   padding: 5px 6px;
