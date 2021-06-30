@@ -1,39 +1,71 @@
-Portfolio
-Assigment from Microverse: Setting Up mobile portfolio;
-718a9.png)![pic2](https://user-images.githubusercontent.com/75973193/122625844-f00a6780-d0af-11eb-8697-326be07
+# My Portfolio
+
+## Description
+
+> ## see Here 
+Mobile version | Desktop version
+-------------------- | ----------------------
+![hamburger](https://user-images.githubusercontent.com/75973193/123991492-7178c880-d9d3-11eb-8c48-83c0c1c4c443.png "Click on the live demo if you want to see more") | ![Screenshot from 2021-06-21 11-05-48]![desktop](https://user-images.githubusercontent.com/75973193/123992313-30cd7f00-d9d4-11eb-8e93-baefdf914fdb.png"Click on the live demo if you want to see more")
 
 
+> The main purposes of the project are:
 
-Built With;
+- Understand how to parse a Figma design to create a UI.
+- Flexbox to place elements in the page.
+- Build a personal portfolio site.
+- Use images and backgrounds to enhance the look of the website.
+- Use Javascript to implement functionalities to the website
+- use DOM to manipulate styles
 
--HTML
+## Built With
 
--CSS
+This project is build with:
 
-LIVE DEMO;
-here is the live link: https://isaka-lumato.github.io/portfolio/#
+- HTML
+- CSS
+- JavaScript
 
-Getting Started;
+[Link Demo](https://isaka-lumato.github.io/portfolio/ "Click here to see more")
 
-To clone this project Run command: Press the green Code button in the upper right corner and choose to download from the Download ZIP link.
+## Getting Started
 
-From this i learned alot about formsw and styling them.
+To get the content of this project locally you need to run this command in your terminal:
 
-here is the live link: https://isaka-lumato.github.io/portfolio/#
+- ` git clone https://github.com/isaka-lumato/portfolio.git`
 
-Prerequisites;
+## Test
 
--Code editor (VS Code, Sublime, Atom)
+For tracking linter errors locally you need to follow these steps:
 
-Authors;
+- After cloning the project you need to run this command
 
-Isaka Lumato
-GitHub: @isaka-lumato
-Twitter: @lm10skilly
+  > `npm install`
+  > This command will download all the dependancies of the project
 
-Show your support
+- For tracking the linter errors in HTML file run:
 
-Give a star if you like this project!
-memo License
-This project is MIT licensed.
+  > `npx hint .`
 
+- And for tracking the linter errors in CSS file run:
+  > `npx stylelint "\*_/_.{css,scss}"`
+
+## Author
+
+👤 **Isaac Lumato**
+
+- GitHub: [@Anhersonlebon](https://github.com/isaka-lumato)
+- Twitter: [@BuyananaCaleb](https://twitter.com/lm10skilly)
+- LinkedIn: [Anderson Caleb](https://www.linkedin.com/in/isaka-william-90773020b/)
+
+## :handshake: Contributing
+
+Feel free to check the [issues page](https://github.com/isaka-lumato/portfolio/issues)
+
+## Show your support
+
+Give a :star: if you like this project!
+
+## Acknowledgments
+
+- Thanks to [Microverse](www.microverse.org) team that help with the tamplete of this project
+- Thanks to everyone who will get time to check this code especially to code reviewers.
