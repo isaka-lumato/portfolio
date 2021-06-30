@@ -1,39 +1,43 @@
-Portfolio
+###  Portfolio
+---
 Assigment from Microverse: Setting Up mobile portfolio;
-718a9.png)![pic2](https://user-images.githubusercontent.com/75973193/122625844-f00a6780-d0af-11eb-8697-326be07
+![pic2](https://user-images.githubusercontent.com/75973193/122625844-f00a6780-d0af-11eb-8697-326be07718a9.png)
 
 
-
-Built With;
+## Built With:
+---
 
 -HTML
 
 -CSS
 
-LIVE DEMO;
-here is the live link: https://isaka-lumato.github.io/portfolio/#
+## LIVE DEMO;
+---
+here is the live link: [Live Demo](https://isaka-lumato.github.io/portfolio/#)
 
-Getting Started;
+## Getting Started;
+---
 
 To clone this project Run command: Press the green Code button in the upper right corner and choose to download from the Download ZIP link.
 
 From this i learned alot about formsw and styling them.
 
-here is the live link: https://isaka-lumato.github.io/portfolio/#
+here is the live link: [Live Demo](https://isaka-lumato.github.io/portfolio/)
 
-Prerequisites;
+## Prerequisites;
+---
 
 -Code editor (VS Code, Sublime, Atom)
 
-Authors;
+## Authors;
+---
 
 Isaka Lumato
 GitHub: @isaka-lumato
 Twitter: @lm10skilly
 
-Show your support
+## 📝 License
+---
 
-Give a star if you like this project!
-memo License
-This project is MIT licensed.
+This project is [MIT](./MIT.md) licensed.
 
