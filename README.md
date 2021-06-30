@@ -8,7 +8,7 @@ Assigment from Microverse: Setting Up mobile portfolio;
 > ## see Here 
 Mobile version | Desktop version
 -------------------- | ----------------------
-![hamburger](https://user-images.githubusercontent.com/75973193/123991492-7178c880-d9d3-11eb-8c48-83c0c1c4c443.png "Click on the live demo if you want to see more") | ![Screenshot from 2021-06-21 11-05-48]![desktop](https://user-images.githubusercontent.com/75973193/123992313-30cd7f00-d9d4-11eb-8e93-baefdf914fdb.png"Click on the live demo if you want to see more")
+![galaxyS5](https://user-images.githubusercontent.com/75973193/124035406-2a0b3000-da05-11eb-929a-9ebcb0a12d44.png) "Click on the live demo if you want to see more") | ![Screenshot from 2021-06-21 11-05-48]![desktop](https://user-images.githubusercontent.com/75973193/123992313-30cd7f00-d9d4-11eb-8e93-baefdf914fdb.png "Click on the live demo if you want to see more")
 
 =======
 ## Built With
@@ -72,9 +72,9 @@ For tracking linter errors locally you need to follow these steps:
 
 👤 **Isaac Lumato**
 
-- GitHub: [@Anhersonlebon](https://github.com/isaka-lumato)
-- Twitter: [@BuyananaCaleb](https://twitter.com/lm10skilly)
-- LinkedIn: [Anderson Caleb](https://www.linkedin.com/in/isaka-william-90773020b/)
+- GitHub: [Isaac Lumato](https://github.com/isaka-lumato)
+- Twitter: [Isaac Lumato](https://twitter.com/lm10skilly)
+- LinkedIn: [Isaac Lumato](https://www.linkedin.com/in/isaka-william-90773020b/)
 
 👤 **Sheyla Pozo** 💖
 
