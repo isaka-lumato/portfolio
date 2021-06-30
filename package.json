@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Assigment from Microverse: Setting Up mobile portfolio; 718a9.png)![pic2](https://user-images.githubusercontent.com/75973193/122625844-f00a6780-d0af-11eb-8697-326be07",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaka-lumato/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaka-lumato/portfolio/issues"
+  },
+  "homepage": "https://github.com/isaka-lumato/portfolio#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
