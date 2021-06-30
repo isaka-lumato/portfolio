@@ -1,7 +1,3 @@
-.newHTML {
-  overflow: hidden;
-}
-
 .intro {
   background-image: url("images/bg2.png");
   height: 718px;
@@ -16,8 +12,8 @@
   margin-top: 10%;
 }
 
-.newHTML .intro {
-  filter: blur(7px);
+.newHTML #others {
+  filter: blur(5px);
 }
 
 body {
