@@ -145,3 +145,26 @@ seeBtn.forEach((btn) => {
     html.classList.add('htmlPopUp');
   });
 });
+const submitBtn = document.querySelector('#submitBtn');
+const inputEmail = document.querySelector('#mail');
+const errorContainer = document.createElement('div');
+const form = document.querySelector('form');
+const parentBtn = submitBtn.parentElement;
+parentBtn.classList.add('error');
+parentBtn.appendChild(errorContainer);
+
+form.addEventListener('submit', (e) => {
+  const emailValue = inputEmail.value;
+  const expression = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+  const IsEmailValid = expression.test(emailValue);
+  if (emailValue === '') {
+    errorContainer.innerText = 'Invalid, email is required';
+    e.preventDefault();
+  } else if (!IsEmailValid) {
+    const div = submitBtn.parentElement.querySelector('div');
+    div.innerText = 'Invalid, email should be valid and in lower-case';
+    e.preventDefault();
+  } else {
+    parentBtn.removeChild(errorContainer);
+  }
+});

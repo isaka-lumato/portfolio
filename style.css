@@ -699,6 +699,19 @@ nav ul a {
   filter: blur(8px);
 }
 
+.error {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 130%;
+}
+
+.error div {
+  color: rgba(255, 0, 0, 0.753);
+  width: 50%;
+}
+
 @media (min-width: 600px) {
   .progrm-l .pop-lang:nth-child(4),
   .progrm-l .pop-lang:nth-child(5),
