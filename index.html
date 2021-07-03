@@ -5,14 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1RC9DSWTBF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1RC9DSWTBF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-1RC9DSWTBF');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1RC9DSWTBF');
+  </script>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>My Portfolio</title>
@@ -74,7 +77,8 @@
 
 
       <main>
-        <section class="tonic2">
+        <section class="cardContainer"></section>
+        <!-- <section class="tonic2">
           <img src="images/tonic.png" alt="tonic1" class="mob">
           <img src="imagesdesktop/tonic2-1.png" alt="tonic1" class="desk">
           <div class="card1">
@@ -94,16 +98,16 @@
               <li class="deskRuby">Ruby on rails</li>
             </ul>
 
-            <a href="#" class="see">See Project</a>
+            <a href="#" class="see myButton1">See Project</a>
           </div>
         </section>
         <section class="tonic2">
           <img src="images/multpst2.png" alt="tonic2" class="mob">
           <img src="imagesdesktop/tonic2-2.png" alt="tonic2" class="desk desk2">
           <div class="card1">
-            <h2 class="tonic3">Multi-Post <br>
+            <h2 class="tonic3 hc2">Multi-Post <br>
               Stories</h2>
-            <ul class="ul2 ">
+            <ul class="ul2 ul2c1">
               <li class="can canm">CANOPY</li>
               <li class="li2 canm">Back End Dev</li>
               <li class="li2 canm">2015</li>
@@ -122,16 +126,16 @@
               <li class="deskRuby">Ruby on rails</li>
             </ul>
 
-            <a href="#" class="see">See Project</a>
+            <a href="#" class="see myButton2">See Project</a>
           </div>
         </section>
         <section class="tonic2">
           <img src="images/tonic3.png" alt="tonic3" class="mob">
           <img src="imagesdesktop/tonic2-3.png" alt="tonic3" class="desk">
           <div class="card1">
-            <h2 class="tonic3">Tonic</h2>
+            <h2 class="tonic3 hc3">Tonic</h2>
             <h2 class="tonic3-b">Facebook 360</h2>
-            <ul class="ul2">
+            <ul class="ul2 ul2c2">
               <li class="can canm">CANOPY</li>
               <li class="li2 canm">Back End Dev</li>
               <li class="li2 canm">2015</li>
@@ -149,16 +153,16 @@
               <li class="deskRuby">Ruby on rails</li>
             </ul>
 
-            <a href="#" class="see">See Project</a>
+            <a href="#" class="see myButton3">See Project</a>
           </div>
         </section>
         <section class="tonic2">
           <img src="images/multipost.png" alt="tonic4" class="mob">
           <img src="imagesdesktop/toni2-4.png" alt="tonic4" class="desk desk2">
           <div class="card1">
-            <h2 class="tonic3">Multi-Post Stories</h2>
+            <h2 class="tonic3 hc4">Multi-Post Stories</h2>
             <h2 class="tonic3-b">Uber Navigation</h2>
-            <ul class="ul2">
+            <ul class="ul2 ul2c3">
               <li class="can canm">CANOPY</li>
               <li class="li2 canm">Back End Dev</li>
               <li class="li2 canm">2015</li>
@@ -176,9 +180,9 @@
               <li class="deskRuby">Ruby on rails</li>
             </ul>
 
-            <a href="#" class="see">See Project</a>
+            <a href="#" class="see myButton4">See Project</a>
           </div>
-        </section>
+        </section> -->
         <section class="outro">
           <section class="about">
             <div class="aboutSec">
@@ -269,8 +273,27 @@
         </section>
       </main>
     </div>
-    <script src="app.js"></script>
   </div>
+  <!-- <div class="modal" id="myModal">
+    <div class="modalContent">
+      <div class="modalHeader">
+        <h2 class="modalTitle"></h2>
+        <span id="modalClose"></span>
+      </div>
+      <div class="modalInfo"></div>
+      <div class="modalBody">
+        <p class="modalDescription"></p>
+        <div class="modalMiddle">
+          <div class="modalTechnology"></div>
+          <div class="modalFooter">
+            <button class="source"><span class="sourceImg"><img src="" alt="image1" class="img1"></span></button>
+            <button class="life"><span class="lifeImg"><img src="" alt="image2" class="img2"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <script src="app.js"></script>
 </body>
 
 </html>
