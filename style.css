@@ -551,7 +551,7 @@ nav ul a {
   display: flex;
   justify-content: space-between;
   text-decoration: none;
-  padding: 23px 14px;
+  padding: 17px 14px;
   color: #396df2;
   border: 1px solid #6070ff;
   box-sizing: border-box;
@@ -712,6 +712,10 @@ nav ul a {
 
   .popup-window .tonic3 {
     display: flex;
+  }
+
+  .see-popup a {
+    margin-right: 8px;
   }
 
   .see-popup a span {
